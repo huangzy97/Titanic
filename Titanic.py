@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon May 20 15:41:35 2019
-https://www.jianshu.com/p/e79a8c41cb1a
 @author: sbtithzy
 """
 '''
