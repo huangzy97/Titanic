@@ -6,10 +6,10 @@ Created on Mon May 20 15:41:35 2019
 '''
 PassengerID（ID）
 Survived(存活与否)
-Pclass（客舱等级，较为重要）
-Name（姓名，可提取出更多信息）
-Sex（性别，较为重要）
-Age（年龄，较为重要）
+Pclass（客舱等级）
+Name（姓名）
+Sex（性别）
+Age（年龄）
 Parch（直系亲友）
 SibSp（旁系）
 Ticket（票号）
@@ -26,7 +26,6 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.feature_selection import SelectKBest
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import cross_val_score
-
 import warnings
 warnings.filterwarnings('ignore')
 def Ticket_Label(s):
