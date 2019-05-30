@@ -29,9 +29,9 @@ from sklearn.model_selection import cross_val_score
 import warnings
 warnings.filterwarnings('ignore')
 def Ticket_Label(s):
-    if (s >= 2) & (s <= 4):
+    if (s >= 2) & (s <= 5):####4
         return 2
-    elif ((s > 4) & (s <= 8)) | (s == 1):
+    elif ((s > 5) & (s <= 8)) | (s == 1):
         return 1
     elif (s > 8):
         return 0
