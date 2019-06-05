@@ -49,7 +49,6 @@ PassengerId = Test_data['PassengerId']
 ###整合数据
 All_data = pd.concat([Train_data,Test_data],ignore_index = 'True')
 ####特征工程
-####新增特征
 ##1根据名字
 All_data['Title'] = All_data['Name'].apply(lambda x:x.split(',')[1].split('.')[0].strip())
 Title_Dict = {}
